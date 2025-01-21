@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #e0f7ff, #a3d9ff);
+    color: #033649;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .portfolio-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #cce7ff;
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 2.5em;
+    color: #007acc;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .role {
+    font-size: 1.2em;
+    color: #033649;
+    margin: 5px 0 15px;
+  }
+  
+  .about-me h2 {
+    font-size: 1.8em;
+    color: #005b96;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-me p {
+    font-size: 1em;
+    color: #033649;
+    line-height: 1.5;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #007acc;
+  }
+  
